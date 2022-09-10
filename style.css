@@ -1,0 +1,45 @@
+#puzzle {
+    width: 450px;
+    height: 450px;
+    border: 1px grey solid;
+}
+
+#puzzle input {
+    width: 50px;
+    height: 50px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkslategrey;
+    box-sizing: border-box;
+    border: 1px grey solid;
+    transition: 0.2s ease;
+}
+
+#puzzle input:focus {
+    outline: 0;
+}
+
+.sudoku-btn {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #42032C;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #CFD2CF;
+}
+
+.sudoku-btn:hover {
+    border: none;
+    background-color: #F73D93;
+    color: white;
+}
+.solve-button {
+    margin: 20px 0 0 150px;
+}
+
+.bg-grey {
+    background-color: #CFD2CF;
+}
